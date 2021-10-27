@@ -52,6 +52,8 @@
 
 ![RESTful](./public/images/RESTful.png)
 
+---
+
 #### HTTP code
 
 <br/>
@@ -131,3 +133,17 @@
 #### `documentElement.clientSize: ${document.documentElement.clientWidth}, ${document.documentElement.clientHeight}`
 
 #### 웹페이지(수직스크롤바가 있다면 그 스크롤바를 제외한 영역 사이즈)
+
+---
+
+### Coordinates(좌표)
+
+#### client X,Y 값은 사용자에게 보여지지 않는 페이지와 상관없이 브라우저 window 창에서의 x, y 값
+
+#### page X,Y 페이지 자체의(문서의 맨 상단 맨 왼쪽) x, y 값
+
+#### window.scrollBy() : 설정 값만큼 이동
+
+#### window.scrollTo : 설정 값으로 이동
+
+#### scrollIntoView : 특정 값으로 이동

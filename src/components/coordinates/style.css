@@ -1,0 +1,52 @@
+body {
+  /* overflow: hidden; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 1em;
+}
+div {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  background: rgb(227, 242, 241);
+  background: radial-gradient(
+    circle,
+    rgba(227, 242, 241, 0.6899802157191002) 0%,
+    rgba(14, 23, 238, 0.5191118683801645) 100%
+  );
+  margin-bottom: 1em;
+  padding: 0;
+  color: transparent;
+}
+
+div .selected {
+  border-radius: 0%;
+}
+
+header {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 16px;
+}
+
+#space-invader {
+  box-shadow: 0 0 0 1em red, 0 1em 0 1em red, -2.5em 1.5em 0 0.5em red,
+    2.5em 1.5em 0 0.5em red, -3em -3em 0 0 red, 3em -3em 0 0 red,
+    -2em -2em 0 0 red, 2em -2em 0 0 red, -3em -1em 0 0 red, -2em -1em 0 0 red,
+    2em -1em 0 0 red, 3em -1em 0 0 red, -4em 0 0 0 red, -3em 0 0 0 red,
+    3em 0 0 0 red, 4em 0 0 0 red, -5em 1em 0 0 red, -4em 1em 0 0 red,
+    4em 1em 0 0 red, 5em 1em 0 0 red, -5em 2em 0 0 red, 5em 2em 0 0 red,
+    -5em 3em 0 0 red, -3em 3em 0 0 red, 3em 3em 0 0 red, 5em 3em 0 0 red,
+    -2em 4em 0 0 red, -1em 4em 0 0 red, 1em 4em 0 0 red, 2em 4em 0 0 red;
+  background: red;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  margin: 50px 0 70px 65px;
+}
