@@ -147,3 +147,17 @@
 #### window.scrollTo : 설정 값으로 이동
 
 #### scrollIntoView : 특정 값으로 이동
+
+---
+
+### Window load
+
+#### defer : ContentLoaded 가 발생되기 이전에 호출된다. HTML 로딩만 완료되면 호출된다.
+
+#### load : window에서 페이지에 필요한 모든 리소스(폰트,css 등)가 로딩이 완료되면! 콜백함수를 호출한다.
+
+#### DOMContentLoaded : document만 즉, HTML 로딩이 완료되면! 콜백함수를 호출한다.
+
+#### beforeunload : 페이지를 나가기 전에? unload 전에 호출된다.
+
+#### unload : 페이지가 unload 되기 전 쿠키나 캐쉬를 지운다던지, 이제 더이상 필요없는 자원들을 지워줄때 사용할 수 있다.
