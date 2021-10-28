@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app {
+  color: white;
+  margin: auto;
+  width: 45em;
+  padding: 2em;
+  border-radius: 0.5em;
+  box-shadow: 0px 0px 10px #393f49;
+  background-color: #393f49;
+}
+
+header {
+  font-size: 2em;
+  font-weight: bolder;
+  margin-bottom: 1.1em;
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  margin-bottom: 2em;
+}
+
+.input {
+  width: 83%;
+  padding: 1em 0.5em;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  outline: none;
+  color: #abafb3;
+  font-size: 1em;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: lightskyblue;
+  color: white;
+  padding: 1em 2em;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.deleteBtn {
+  cursor: pointer;
+  margin-right: 0.5em;
+  transition: all 300ms ease-in;
+}
+
+.deleteBtn:hover {
+  color: red;
+}
+
+.checkBtn {
+  cursor: pointer;
+  transition: all 300ms ease-in;
+}
+
+.lists {
+  padding: 0;
+  height: 15em;
+  margin-bottom: 1em;
+  color: #abafb3;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.lists::-webkit-scrollbar {
+  display: none;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0;
+  border-top: 1px solid #abafb3;
+}
+
+.list:last-child {
+  border-bottom: 1px solid #abafb3;
+}
+
+.list__check__item {
+  cursor: pointer;
+}
+
+.list__delBtn:hover {
+  color: red;
+  transform: scale(1.1);
+  font-size: 1em;
+}

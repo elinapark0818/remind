@@ -1,10 +1,12 @@
+'use strict';
+
 const selected = document.querySelector('.selected');
 
 selected.addEventListener('click', (event) => {
-  const rect = selected.getBoundingClientRect();
-  console.log(rect);
-  console.log(`client: ${event.clientX}, ${event.clientY}`);
-  console.log(`page: ${event.pageX}, ${event.pageY}`);
+    const rect = selected.getBoundingClientRect();
+    console.log(rect);
+    console.log(`client: ${event.clientX}, ${event.clientY}`);
+    console.log(`page: ${event.pageX}, ${event.pageY}`);
 });
 
 const scrollBy = document.querySelector('.scroll-by');

@@ -1,3 +1,5 @@
+'use strict';
+
 const title = document.querySelector('.title')
     function update() {
       title.innerHTML = `

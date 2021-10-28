@@ -1,3 +1,4 @@
+'use strict';
 // only document
 window.addEventListener('DOMContentLoaded', () => {
   console.log('DOMContentLoaded');
